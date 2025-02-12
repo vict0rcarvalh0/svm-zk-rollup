@@ -1,5 +1,6 @@
 mod models;
 mod executor;
+mod zk_prover;
 
 use executor::{execute_transaction, load_state};
 use models::transaction::Transaction;

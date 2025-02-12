@@ -10,7 +10,7 @@ borsh = "0.10"
 tokio = { version = "1", features = ["full"] }
 anyhow = "1.0"
 lazy_static = "1.4"
-bellman = { git = "https://github.com/zkcrypto/bellman.git" }
+bellman = "0.9"
+pairing = "0.23.0"
 rand = "0.8"
-pairing = "0.21"
 bls12_381 = "0.8"
